@@ -1,0 +1,216 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    overflow: hidden;   
+}
+.man{
+    position: relative;
+    height: 201px;
+    width: calc(751px/8);
+    overflow: hidden;
+    background: url(./301221.png);
+    animation: movement 0.8s steps(8) infinite, forward 10s linear infinite;
+}
+@keyframes movement{
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: -810px;
+    }
+}
+@keyframes forward{
+    0%{
+        transform: translateX(-80px);
+    }
+    100%{
+        transform: translateX(1920px);
+    }
+} */
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    animation: ungu 2s infinite;
+}
+@keyframes ungu{
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: rgb(1,145,255);
+    }
+    75%{
+        background-color: chartreuse;
+    }
+    100%{
+        background-color: aqua;
+    }
+}
+.box .egnee1{
+    width: 20%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box .egnee1 p{
+    font-size: 50px;
+    animation: ergeh 2s infinite;
+}
+@keyframes ergeh{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(30deg);
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+.box .egnee2{
+    width: 20%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box .egnee2 .durvuljin{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: toirog 2s infinite;
+}
+@keyframes toirog{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(180deg);
+        border-radius: 60px;
+    }
+    50%{
+        transform: rotate(-180deg);
+        border-radius: 60px;
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.box .egnee3{
+    width: 20%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.box .egnee3 .item1{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255,1,1);
+    animation: ehniih 3s infinite;
+}
+@keyframes ehniih{
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        transform: translateX(200px) skewX(50deg);
+    }
+    50%{
+        transform: translate(0px,200px);
+    }
+    75%{
+        transform: translate(200px,200px) skewY(-50deg);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+
+.box .egnee3 .item2{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    animation: hajuu 2s infinite;
+}
+@keyframes hajuu{
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: translate(160px,80px) rotate(360deg) scale(2);
+    }
+    100%{
+        transform: translate(0px) scale(1);
+    }
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to top,#9890e3 0%,#b1f4cf 100%);
+    overflow: hidden;
+}
+.man{
+    position: relative;
+    height: 201px;
+    width: calc(751px/8);
+    overflow: hidden;
+    background: url(./301221.png);
+    animation: movement 0.8s steps(8) infinite,forward 10s linear infinite;
+}
+
+@keyframes movement{
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: -810px;
+    }
+}
+@keyframes forward{
+    0%{
+        transform: translateX(-80px);
+    }
+    100%{
+        transform: translateX(1920px);
+    }
+}
